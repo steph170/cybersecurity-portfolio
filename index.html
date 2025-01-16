@@ -3,59 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steph Frim - IT Professional</title>
+    <title>Stephen Frimpong - IT Professional</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li {
-            margin: 5px 0;
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh; /* Ensures the page takes the full height */
+        display: flex; /* Flexbox layout */
+        flex-direction: column; /* Aligns the layout vertically */
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+    }
+    section {
+        padding: 20px;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        flex-grow: 1; /* Allows sections to expand and take up available space */
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: relative; /* Changed from fixed to relative to prevent overlap */
+        width: 100%;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li {
+        margin: 5px 0;
+    }
+</style>
+
 </head>
 <body>
 
     <header>
-        <h1>Steph Frim - IT Professional</h1>
+        <h1>Stephen Frimpong - IT Professional</h1>
         <p>Cybersecurity & Linux System Administrator</p>
     </header>
 
@@ -66,7 +70,7 @@
 
     <section>
         <h2>Professional Experience</h2>
-        <h3>National Imaging Systems - Technical Support Specialist</h3>
+        <h3>Johns Hopkins Health Systems - Technical Support Specialist</h3>
         <p><strong>Suburban/Rockledge Hospital Bethesda (2024 – Present)</strong></p>
         <ul>
             <li>Install, test, configure new printers, peripheral equipment, and software for users.</li>
